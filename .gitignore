@@ -1,0 +1,7 @@
+nbproject
+nbproject/*
+nbproject/private/*
+nbproject/private/private.xml
+.vscode
+README.txt
+*.swp

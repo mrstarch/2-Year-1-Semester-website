@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 21, 2020, 9:58:27 PM
+    Author     : Mitchell Vivian, Daniel Strauch
+*/
+@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    font-family: 'Kaushan Script', cursive;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size-adjust: .65;
+    background-image: url("./lib/background.jpeg");
+    background-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Texturina', serif;
+}
+
+
+.content {
+    display: grid;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 2%;
+    justify-self: center;
+    background-image: none;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    border-radius: 5px;
+}
+.content h1 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.nav{
+    height: 35px;
+}
+
+.nav, .menu{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.nav p, .menu p{
+    margin: 0px;
+    width: 100px;
+}
+
+.menu{
+    width: 100px;
+    position: fixed;
+}
+.menu p {
+    cursor: pointer;
+}
+.selected {
+    color: aqua;
+    font-weight: bold;
+}
+
+.text-field {
+    font-family: sans-serif;
+}
+
+fieldset {
+    background: rgba(15, 15, 15, 0.1);
+}
+
+fieldset h2 {
+    margin-top: 1%;
+}
+.error-text {
+    font-family: sans-serif;
+    color: firebrick;
+    font-size-adjust: 0.55;
+}

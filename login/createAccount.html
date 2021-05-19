@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Account Creation</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <div class='nav'><p></p></div>
+        <div class ="content">
+            <h1>Account Creation</h1>
+            <fieldset>
+                <legend><h2>New User</h2></legend>
+                <form action="#" onsubmit="createAccount(); return false">
+                    <label for="username">User Name:</label>
+                    <br>
+                    <input class="text-field" type="text" name="username" id="username" required>
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input class="text-field" type="email" name="email" id="email" required>
+                    <br><br>
+                    <label for="password">Password:</label>
+                    <br>
+                    <input class="text-field" type="password" name="password" id="password" required>
+                    <br><div class="error-text" id="error-text"></div><br>
+                    <input type="submit" value="Submit">
+                    <button onclick="window.location.href='../index.php'">Back</button>
+                </form>
+                
+            </fieldset>
+        </div>
+        <!--import jQuery-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <!--This is the JS file that will be used on every page-->
+        <script src="../main.js"></script>
+        <script src="createAccount.js"></script>
+        <!--Add additional JS files below.-->
+    </body>
+</html>
